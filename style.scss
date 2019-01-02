@@ -1,0 +1,47 @@
+@import "classesanddivs";
+
+$black: #000000;
+$font: "Comic Sans MS";
+
+@mixin center {
+   text-align: center;
+   font-family: $font;
+}
+
+body{
+   background-image: url("assets/img/background.jpg"); /* The image used */
+   background-size: 1500px;
+   width: 1500px;
+   background-color: $black; /* Used if the image is unavailable */
+   background-repeat: no-repeat; /* Do not repeat the image */
+    font-family: $font;
+    padding-top: 5em;
+    color: antiquewhite;
+   }
+h1  {
+    
+    @include center;
+    text-transform:  uppercase;
+    color: rgb(253, 208, 7);
+    font-weight: bolder;
+    font-size: 70px;
+    text-shadow: 2px 2px 8px $black;
+    
+   }
+h2,h3  {
+   @include center;
+    
+   }
+
+
+   a {
+      text-decoration: none;
+      color: antiquewhite;
+      font-weight: bolder;
+   }
+
+   a:hover {
+    color: hotpink;
+  }
+
+ 

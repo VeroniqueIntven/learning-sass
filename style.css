@@ -1,0 +1,64 @@
+.flex-container {
+  display: flex;
+  justify-content: space-evenly; }
+  .flex-container img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto; }
+  .flex-container div {
+    font-size: 15px;
+    background-color: #1d1f20;
+    margin-right: 2em;
+    padding: 1em;
+    width: 300px; }
+
+#actorlist {
+  margin: 0;
+  padding: 0; }
+
+.movie {
+  width: 250px;
+  border-radius: 50%;
+  margin: 1em;
+  border: 5px solid #000000; }
+
+.star {
+  display: block;
+  text-align: center;
+  font-size: 30px; }
+
+body {
+  background-image: url("assets/img/background.jpg");
+  /* The image used */
+  background-size: 1500px;
+  width: 1500px;
+  background-color: #000000;
+  /* Used if the image is unavailable */
+  background-repeat: no-repeat;
+  /* Do not repeat the image */
+  font-family: "Comic Sans MS";
+  padding-top: 5em;
+  color: antiquewhite; }
+
+h1 {
+  text-align: center;
+  font-family: "Comic Sans MS";
+  text-transform: uppercase;
+  color: #fdd007;
+  font-weight: bolder;
+  font-size: 70px;
+  text-shadow: 2px 2px 8px #000000; }
+
+h2, h3 {
+  text-align: center;
+  font-family: "Comic Sans MS"; }
+
+a {
+  text-decoration: none;
+  color: antiquewhite;
+  font-weight: bolder; }
+
+a:hover {
+  color: hotpink; }
+
+/*# sourceMappingURL=style.css.map */
